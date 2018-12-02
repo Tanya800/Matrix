@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include <malloc.h>
+#include "Arithmat.h"
 
 int i=0, j=0,kl,rn;
 
