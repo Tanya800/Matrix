@@ -42,8 +42,9 @@ determinant(int **mtr,int m,int n) {
 				d = d + k * mtr[i][0] * determinant(mtr, st , st);
 				k = -k;
 			}
+			return(d);
 		}
-	
+	return(d);
 }
 
 find(int **mtr, int m, int n) {
